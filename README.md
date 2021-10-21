@@ -3,7 +3,7 @@
 
 In this repo we show how a CNN model, with a given input can be explained. The CNN model used in this repo is a pytorch implementation of [1]. The model is first trained on the polarity dataset[2] and then explained via an adverserial attack [3] on the word embeddings.
 
-<img src="demo_images/Fig1.png" height="150">
+<img src="demo_images/Fig1.png" height="300">
 
 ### How to run
 ``` 
