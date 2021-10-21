@@ -3,8 +3,7 @@ import os
 import random
 import tarfile
 import urllib
-from torchtext import data
-# from torchtext.legacy import data
+from torchtext.legacy import data
 
 
 class TarDataset(data.Dataset):
