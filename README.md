@@ -10,11 +10,9 @@ In this repo we show how a CNN model, with a given input can be explained. The C
 # install required packages
 conda env create -f exp_text.yml
 
-# run demo on jupyter notebook
-jupyter notebook
+# run 
+python exp_text.py -no-cuda -snapshot snapshot/best_steps_1900.pt -example_save_path tmp_saved_data/ -predict_and_attack "it's a glorified sitcom , and a long , unfunny one at that ."
 ```
-
-
 
 
 ## References
